@@ -1,0 +1,7 @@
+ts
+bs4
+numpy
+pandas
+mysqlclient
+sqlalchemy
+pymongo==2.8.1
