@@ -90,8 +90,8 @@ class NaverKeywordsCrawling:
         # insert keyowrds
         self.mongo_client.terraform.naver_keywords.insert(keyowrds)
         
-    def send_slack(self, msg, channel="#dssf", username="provision_bot" ):
-        webhook_URL = "https://hooks.slack.com/services/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"
+    def send_slack(self, msg, channel="#program", username="provision_bot" ):
+        webhook_URL = "https://hooks.slack.com/services/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"
         payload = {
             "channel": channel,
             "username": username,
