@@ -114,7 +114,7 @@ class NaverKeywordsCrawling:
         self.mongo_save()
 
         # send msg
-        self.send_slack("naver crawling done!")
+        self.send_slack("naver crawling done! TTTT ")
 
 
 # In[5]:
